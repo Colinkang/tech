@@ -41,8 +41,8 @@
 *   *单引号 如果需要禁止所有的展开,我们使用单引号。*
 *   `Ctrl-a` 移动光标到行首
 *   `Ctrl-e` 移动光标到行尾
-*   `Ctrl-f` 光标前移一个字符
-*   `Ctrl-b` 光标后移一个字符
+*   `Ctrl-f` 光标后移一个字符
+*   `Ctrl-b` 光标前移一个字符
 *    `tab`  自动补全
 *    `id`-显示用户身份号
 *    `chmod`-更改文件模式
@@ -103,5 +103,48 @@
 *  `sort` 给文件行排序
 *  `diff` 逐行比较文件
 *  `patch` 给原始文件打补丁
-*  `sed` 用于筛选和转换文本的流编辑器                                                      
+*  `sed` 用于筛选和转换文本的流编辑器  
+
+* linux 下载 安装 软件安装 
+* [linux基本命令](https://linux.cn/article-6160-1.html)
+  * ls/pwd/cd/echo/file/printenv/`Tab`
+  * mkdir/rm/mv/touch/less/
+  * cut/join/sed/awk/sort/uniq/wc/tr
+  * useradd/userdel/usermod/passwd/chsh/id/chown/chmod
+  * alias/grep
+  * date/cal/bc/man 
+* linux 文件层次结构
+  * /etc 配置文件
+  * /dev 设备文件
+  * /bin 二进制命令文件
+  * /home 用户的家目录
+  * /root 管理员家目录
+  * /usr 软件安装目录
+  * ~/.bash_profile 是交互式、login 方式进入bash 运行的；~/.bashrc 是交互式 non-login 方式进入bash 运行的；
+* 存储设备
+   * dd
+   * mount 挂载 umount 卸载
+* vim编辑器
+* shell编程
+* 包管理
+  
+* 文本处理
+* 进程管理
+  * 查看 关闭进程
+  * 关闭 重启系统
+* 网络管理
+  * 向服务器发送请求
+  * 经过的路由节点
+  * wget下载
+  * scp 复制文件
+  * ssh远程登录
+* 用户管理
+  * 添加 修改 删除用户
+  * 添加 修改 删除组
+  * 用户的切换
+  * 用户的权限设置
+* [算法复杂度速查表](https://linux.cn/article-7480-1.html?utm_source=index&utm_medium=moremore)
+* ssh登录过程
+* 1）远程主机收到用户的登录请求，把自己的公钥发给用户。（2）用户使用这个公钥，将登录密码加密后，发送回来。（3）远程主机用自己的私钥，解密登录密码，如果密码正确，就同意用户登录。
+                                                    
 
